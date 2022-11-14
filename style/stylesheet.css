@@ -1,7 +1,22 @@
+
+
 body {
     background-image: url(../img/main/background.gif);
     color: whitesmoke;
 }
+
+.sidenav {
+    height: 100%;
+    width: 7%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1b1b1bbe;
+    overflow-x: hidden;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
 
 .container {
     background-color: rgb(24, 24, 24);
@@ -10,6 +25,7 @@ body {
     margin-right: auto;
     margin-top: 5%;
     padding: 1%;
+    position:relative;
 }
 
 .div-principal1 {
