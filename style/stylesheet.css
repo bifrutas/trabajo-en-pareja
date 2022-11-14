@@ -1,0 +1,173 @@
+body {
+    background-image: url(../img/main/background.gif);
+    color: whitesmoke;
+}
+
+.container {
+    background-color: rgb(24, 24, 24);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.div-principal1 {
+    border: 1px solid white ;
+    padding: 0.5%;
+    margin: 5%;
+}
+
+.div-principal2 {
+    border: 1px solid white ;
+    padding: 0.5%;
+    margin-top: 1%;
+    text-align: center;
+
+}
+
+.foto-principal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.table-centrar {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 50px;
+    width: 100%;
+    
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    text-indent: initial;
+}
+
+.td-bordes {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;   
+    text-decoration: none;
+        
+}
+
+.contenidos   {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a {
+    color:cornflowerblue;
+    transition: color 0.2s;
+    
+}
+
+a:hover {
+    color:lightskyblue;
+}
+
+
+.div-categoria1 {
+    border: 1px solid whitesmoke;
+    border-left-width:5px;
+    border-radius: 5px;
+    padding:5px;
+    width: 75%;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.div-categoria2 {
+    text-align: left;
+    margin: 0px;
+    border: 0PX;
+}
+
+.div-categoria2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.div-categoria3 {
+    width: 25%;
+    text-align: left;
+}
+
+.foto-categoria {
+    float: left;
+    padding: 0%;
+    padding-top: 0%;
+    margin-left: 0%;
+    width: 10%;
+}
+
+.texto-categoria {
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.texto-categoria2 {
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.table-categoria {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 50px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    border: 1px solid white;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .div-descripcion {
+    text-align: left;
+    margin: 0px;
+    border: 0PX;
+}
+
+.div-descripcion::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.texto-descripcion {
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.foto-descripcion {
+    float: right;
+    padding: 0%;
+    padding-top: 0%;
+    margin-left: 0%;
+    width: 20%;
+}
+
+.text-inline {
+    width: auto;
+    height:25px;
+    vertical-align: middle;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
