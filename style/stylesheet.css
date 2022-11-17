@@ -14,8 +14,10 @@ body {
     left: 0;
     background-color: #1b1b1bbe;
     overflow-x: hidden;
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    border-right: 1px solid whitesmoke ;
+    min-width: 8%;
   }
 
 .container {
@@ -184,6 +186,3 @@ a:hover {
     vertical-align: middle;
 }
 
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
